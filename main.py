@@ -1,13 +1,7 @@
-#print("Mourya")
-
 from flask import Flask,request,jsonify
 import coref
 
 app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello World'
 
 """
     expected input:
