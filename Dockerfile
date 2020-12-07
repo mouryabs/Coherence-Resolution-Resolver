@@ -9,4 +9,4 @@ RUN pip install virtualenv
 RUN pip install flask
 #EXPOSE 5000
 #RUN python main.py
-ENTRYPOINT ["/bin/bash", "-c"]
+ENTRYPOINT ["/bin/bash", "-c","main.py"]
