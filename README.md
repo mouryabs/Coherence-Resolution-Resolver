@@ -12,4 +12,4 @@ Input Format:\
 Output Format:\
   {\
     "text" : "output text"\
-  }\
+  }
